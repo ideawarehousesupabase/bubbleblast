@@ -84,7 +84,7 @@ function Index() {
         <div className="absolute inset-0" style={{ background: "var(--gradient-hero)" }} />
         <div className="relative max-w-7xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <p className="text-primary uppercase tracking-[0.3em] text-sm mb-6">Welcome to Bubble Blast Detailing Centre</p>
+            <p className="text-primary uppercase tracking-[0.3em] text-sm mb-6">Welcome to Bubble Blast Detailing LTD</p>
             <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold leading-[0.95] mb-8">
               Precision <span className="text-gradient-gold italic">Detailing</span>
             </h1>
@@ -142,7 +142,7 @@ function Index() {
               <a href="https://instagram.com" aria-label="Instagram" className="w-11 h-11 rounded-full border border-border flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition"><Instagram className="w-5 h-5" /></a>
               <a href="https://facebook.com" aria-label="Facebook" className="w-11 h-11 rounded-full border border-border flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition"><Facebook className="w-5 h-5" /></a>
             </div>
-            <a href={`tel:${PHONE.replace(/\s/g,'')}`} className="inline-flex items-center gap-3 bg-gradient-gold text-primary-foreground px-8 py-4 rounded-full font-semibold shadow-[var(--shadow-gold)] hover:opacity-90 transition">
+            <a href={`tel:${PHONE.replace(/\s/g, '')}`} className="inline-flex items-center gap-3 bg-gradient-gold text-primary-foreground px-8 py-4 rounded-full font-semibold shadow-[var(--shadow-gold)] hover:opacity-90 transition">
               <Phone className="w-5 h-5" /> Call Us: {PHONE}
             </a>
           </div>
@@ -173,7 +173,7 @@ function Index() {
             </span>
           </div>
         </a>
-        <a href={`tel:${PHONE.replace(/\s/g,'')}`} className="relative group min-h-[420px] flex items-end overflow-hidden">
+        <a href={`tel:${PHONE.replace(/\s/g, '')}`} className="relative group min-h-[420px] flex items-end overflow-hidden">
           <img src={ctaWorkImg} alt="Meticulous car detailing work" width={1024} height={1024} loading="lazy" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-700" />
           <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-background/20" />
           <div className="relative p-10 md:p-14 max-w-lg">
@@ -212,7 +212,7 @@ function Index() {
           <div>
             <h3 className="font-display text-lg font-bold mb-4 text-foreground">Get In Touch</h3>
             <ul className="space-y-3 text-sm text-muted-foreground">
-              <li className="flex items-start gap-3"><Phone className="w-4 h-4 text-primary mt-1 shrink-0" /><a href={`tel:${PHONE.replace(/\s/g,'')}`} className="hover:text-primary">{PHONE}</a></li>
+              <li className="flex items-start gap-3"><Phone className="w-4 h-4 text-primary mt-1 shrink-0" /><a href={`tel:${PHONE.replace(/\s/g, '')}`} className="hover:text-primary">{PHONE}</a></li>
               <li className="flex items-start gap-3"><Mail className="w-4 h-4 text-primary mt-1 shrink-0" /><a href="mailto:info@bubbleblastdetailing.co.uk" className="hover:text-primary break-all">info@bubbleblastdetailing.co.uk</a></li>
               <li className="flex items-start gap-3"><MapPin className="w-4 h-4 text-primary mt-1 shrink-0" /><span>150-160 Spring Hill, Hockley, Birmingham, B18 7BS</span></li>
               <li className="flex items-start gap-3"><Clock className="w-4 h-4 text-primary mt-1 shrink-0" /><span>Mon - Fri: 9.00AM to 5.00PM</span></li>
