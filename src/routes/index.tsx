@@ -22,8 +22,8 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const PHONE = "+44 7938 944150";
-const WHATSAPP = "https://wa.link/po5v8h";
+const PHONE = "+44 7731 398874";
+const WHATSAPP = "https://wa.me/447731398874";
 
 const services = [
   { title: "Basic Wash", price: "From £10.00 – £15.00", img: svcBasicWash, desc: "Get your car looking fresh with our basic wash service. Includes wash & dry, wheel cleaning, tyre shine, and door shuts for a clean everyday finish." },
